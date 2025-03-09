@@ -11,7 +11,7 @@ export default function Hero() {
           <motion.img
             initial={{ transform: "scale(0)" }}
             animate={{ transform: "scale(1.1)" }}
-            transition={{ damping: 6,type:"spring",stiffness:100 }}
+            transition={{ damping: 6, type: "spring", stiffness: 100 }}
             src="./mohamed.png"
             className="avatar"
             alt=""
@@ -24,13 +24,15 @@ export default function Hero() {
           transition={{ duration: 2 }}
           className="title"
         >
-          Software designer, founder, and amateur astronaut.
+          UI/UX Developer
         </motion.h1>
         <p className="sub-title">
-          I’m Spencer, a software designer and entrepreneur based in New York
-          City. I’m the founder and CEO of Planetaria, where we develop
-          technologies that empower regular people to explore space on their own
-          terms.
+          I’m a Senior UI/UX Developer with a strong background in Computer
+          Science, blending design and technology to create user-centered
+          digital products. Passionate about solving complex problems with
+          innovative solutions, I thrive in collaborative environments, driving
+          projects that deliver exceptional user experiences and align with
+          business goals.
         </p>
         <div className="all-icons flex">
           <div className="icon icon-twitter"></div>

@@ -77,7 +77,7 @@ export default function Main() {
                       <div className="icon-link"></div>
                       <div className="icon-github"></div>
                     </div>
-                    <a className="more flex" href="">
+                    <a className="more flex" href={item.link} target="blank">
                       more <span className="icon-arrow-right"></span>
                     </a>
                   </div>
